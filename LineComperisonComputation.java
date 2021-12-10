@@ -1,8 +1,8 @@
 package blz;
 import java.util.Random;
 public class LineComperisonComputation {
-
-	public static void main(String[] args) {
+	
+public static void main(String[] args) {
 		Random rand = new Random();
 		System.out.println("Welcome to program to calculate the line comparision and computation video");
 		double x1=rand.nextInt(20);
