@@ -21,12 +21,15 @@ public static void main(String[] args) {
 		double line1=LineComperisonComputation.lineCreation();
 		double line2=LineComperisonComputation.lineCreation();
 		System.out.println("The length of line 1 is : "+line1+" & length of line 2 is : "+line2);
-	//@use case 2	
+	//@use case 2 compare using equals method 	
 		Double linea = line1,lineb=line2;
 		boolean b = linea.equals(lineb);
 		if(b)System.out.print("both the lines are equal ");
 		else System.out.print("both the lines are not  equal ");
-		
+    //@use case 3 compare using compareTo method
+		int comparsionResult=linea.compareTo(lineb);
+		if(b)System.out.print("both the lines are equal ");
+		else System.out.print("both the lines are not  equal ");
 }
 
 }
